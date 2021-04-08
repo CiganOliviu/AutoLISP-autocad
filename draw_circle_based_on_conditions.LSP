@@ -15,11 +15,11 @@
 
   	(setq least_size (min part_one part_two))
 
-  	(setq center (getpoint "Set radius center"))
+  	(setq center (getpoint "Set circle center"))
   	(setq radius (getdist center "Set radius for circle"))
 
   	(while (> radius (/ least_size 2))
-	  	(setq center (getpoint "Set radius center"))
+	  	(setq center (getpoint "Set circle center"))
   		(setq radius (getdist center "Set radius for circle"))	
    	)
 	  
