@@ -4,7 +4,7 @@
 	 )
  ) 
 
-(defun C:CIRCLEC (/ radius start_rectangle_point cmdecho)
+(defun C:CIRCLEC (/ radius start_rectangle_point)
   	
 	(setq start_rectangle_point (getpoint "Pick first point of rectangle"))
   	(setq second_rectangle_point (getcorner start_rectangle_point "Pick second point of rectangle"))
