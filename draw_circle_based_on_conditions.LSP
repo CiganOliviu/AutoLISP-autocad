@@ -25,4 +25,3 @@
 	  
 	(command "circle" center radius)
  )
-; This is a testing comment
